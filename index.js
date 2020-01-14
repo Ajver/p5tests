@@ -20,11 +20,13 @@ function draw() {
   
   SJ.canvasScaler.transform();
   
-  background(30);
-
+  
   if(cirr.visible) {
+    background(40, 60, 40);
     fill(180);
     circle(cirr.x, cirr.y, 60);
+  }else {
+    background(30);
   }
 
   fill(20);
